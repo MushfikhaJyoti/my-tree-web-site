@@ -1,0 +1,52 @@
+Size
+Vertical Size: 
+9px
+Horizontal Size: 
+34px
+Border
+Border Radius: 
+20px
+Border Size: 
+2px
+ Box Shadow   /   inset
+Vertical Position: 
+4px
+Horizontal Position: 
+3px
+Blur Radius: 
+0px
+Spread Radius: 
+0px
+ Text Shadow
+Vertical Position: 
+1px
+Horizontal Position: 
+0px
+Blur Radius: 
+0px
+ prefix<a href="#" class="myButton">DETAILS</a>
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:20px;
+	border:2px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:9px 34px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

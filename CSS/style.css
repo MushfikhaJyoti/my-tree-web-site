@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+}
+h1{
+    font-size: 300%;   
+    margin:  100px auto 0 auto;
+    color: #044848;
+}
+h3{
+    font-size: 200%;  
+}
+p{
+    line-height: 2;
+    width: 50%;
+    margin: 50px auto;
+}
+.picture{
+    width: 25%;
+    
+}
+.top-container{
+    padding: 30px 100px;
+    text-align: center;
+    background-color: #fcfdf6;
+}
+
+.middle-container{
+
+}
+.contact-me{
+    padding: 50px 30px 50px 20px;
+}
+.bottom-container{
+    background-color:#eaebe3;
+    padding: 50px 0 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0fa76d; /* Change this to your desired background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 4px rgba(3, 79, 48, 0.2); /* Optional: Add a shadow */
+  }
+  .btn:hover {
+    background-color: #022d27; /* Change this to the hover color you prefer */
+  }
+  .my-btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #7674e8; /* Change this to your desired background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 4px rgba(114, 222, 234, 0.2);
+  }
+  .my-btn:hover{
+    background-color: #022d27;
+  }
